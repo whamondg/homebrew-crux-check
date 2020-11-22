@@ -2,16 +2,16 @@
 class CruxCheck < Formula
   desc "CLI for checking CrUX data."
   homepage "https://github.com/whamondg/homebrew-crux-check"
-  version "0.0.3-alpha"
+  version "0.1.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/whamondg/crux-check/releases/download/v0.0.3-alpha/crux-check_0.0.3-alpha_Darwin_x86_64.tar.gz"
-    sha256 "ac0a1f9b03ab0ef25378aa18f45d7ad62391ed55e1ded29cf4e13337643a2366"
+    url "https://github.com/whamondg/crux-check/releases/download/v0.1.0/crux-check_0.1.0_Darwin_x86_64.tar.gz"
+    sha256 "864931ff2ed36800c5051c97a505456da10a3b238d019715421990a2d40aed44"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/whamondg/crux-check/releases/download/v0.0.3-alpha/crux-check_0.0.3-alpha_Linux_x86_64.tar.gz"
-    sha256 "11667bfd9cee50112f51def70f7572bde5af27f95b38cf0e13e4fffe545d5a93"
+    url "https://github.com/whamondg/crux-check/releases/download/v0.1.0/crux-check_0.1.0_Linux_x86_64.tar.gz"
+    sha256 "5f9333f2c92c59a3210a545cbf9012c2b9610dfa8bf096a8ad9125c6ae097df8"
   end
 
   def install
